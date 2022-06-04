@@ -80,7 +80,7 @@ iframe{
 a{
     text-decoration: none;
     font-style: none;
-    color: #050022;
+    color: color: rgb(45, 69, 218);
 }
 
 @media screen and (max-width: 1440px) {
