@@ -31,12 +31,13 @@ body{
 }
 /***********************/
 nav{
-    background-color: rgb(45, 69, 218);
-    color: #050022;
+    background-color: #050022;
+    color: rgb(45, 69, 218);
     font-size: 60px;
     font-weight: 700;
     letter-spacing: 25px;
     padding: 25px;
+    border-bottom: 3px solid rgb(45, 69, 218);
 }
 p{
     font-size: 20px;
