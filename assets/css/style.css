@@ -77,8 +77,8 @@ span{
 img.language {
     width: 125px;
     margin: 50px;
-    -webkit-animation: spin 5s reverse linear infinite;
-    animation: spin 5s reverse linear infinite;
+    -webkit-animation: spin 6s reverse linear infinite;
+    animation: spin 6s reverse linear infinite;
     background: linear-gradient(110deg, rgba(180,180,180, 0.5), rgba(150,150,150,0.25));
     border: 1px solid rgba(224, 224, 224, 0.1);
     backdrop-filter: blur(10px);
@@ -91,8 +91,8 @@ img.language {
 article.language-container{
     height: 500px;
     width: 500px;
-    -webkit-animation: spin 5s linear infinite;
-    animation: spin 5s linear infinite;
+    -webkit-animation: spin 6s linear infinite;
+    animation: spin 6s linear infinite;
     overflow: hidden;
 }
 /***********LANGUAGE SPIN**************/
