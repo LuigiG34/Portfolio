@@ -1,0 +1,155 @@
+body{
+    background-color: rgb(5, 0, 34);
+    color: #ffffff;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.white-link{
+    color: #ffffff;
+    text-decoration: underline;
+    font-weight: 100;
+}
+.text-center{
+    text-align: center;
+}
+.flex-row{
+    flex-direction: row;
+}
+.flex-col{
+    flex-direction: column;
+}
+.flex-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flex-center{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+/***********************/
+nav{
+    background-color: rgb(45, 69, 218);
+    color: #050022;
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 25px;
+    padding: 25px;
+}
+p{
+    font-size: 20px;
+    font-weight: 100;
+    width: 25%;
+    padding: 25px 0px;
+}
+h1{
+    font-size: 35px;
+    font-weight: 500;
+    letter-spacing: 10px;
+}
+/***********************/
+footer{
+    margin-top: 100px;
+    background-color: #2d45da;
+    color: #050022;
+}
+article.socials{
+    padding: 35px;
+}
+.social{
+    filter: invert(5%) sepia(37%) saturate(6530%) hue-rotate(249deg) brightness(77%) contrast(111%);
+    height: 40px;
+    width: 40px;
+    margin: 0px 25px;
+}
+.social:hover{
+    opacity: 0.75;
+}
+
+iframe{
+    height: 600px;
+    width: 600px;
+    border: none;
+    border-radius: 20px;
+    margin: 25px 0px;
+}
+
+a{
+    text-decoration: none;
+    font-style: none;
+    color: #050022;
+}
+
+@media screen and (max-width: 1440px) {
+    p{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 768px) {
+    nav{
+        font-size: 40px;
+    }
+}
+@media screen and (max-width: 610px) {
+    nav{
+        font-size: 27px;
+    }
+    iframe{
+        width: 500px;
+    }
+    p{
+        width: 60%;
+    }
+}
+@media screen and (max-width: 510px) {
+    iframe{
+        width: 400px;
+    }
+    p{
+        width: 75%;
+    }
+}
+@media screen and (max-width: 425px) {
+    nav{
+        font-size: 25px;
+        padding: 25px 0px;
+        letter-spacing: 13px;
+    }
+    iframe{
+        width: 380px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    nav{
+        font-size: 25px;
+        padding: 25px 0px;
+        letter-spacing: 10px;
+    }
+    iframe{
+        width: 350px;
+    }
+    .pdf{
+        width: 400px!important;
+    }
+    .soda{
+        width: 375px;
+    }
+    section{
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width: 325px) {
+    nav{
+        font-size: 22px;
+        padding: 25px 0px;
+        letter-spacing: 10px;
+    }
+    iframe{
+        width: 300px;
+    }
+}
+
