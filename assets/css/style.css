@@ -9,6 +9,7 @@ hr{
     border: 1px solid rgba(45, 69, 218, 0.5)!important;
     margin-top: 100px;
     margin-bottom: 100px;
+    box-shadow: 0px 0px 5px rgb(45 69 218);
 }
 .text-center{
     text-align: center;
@@ -39,6 +40,13 @@ nav{
     letter-spacing: 25px;
     padding: 25px;
     border-bottom: 3px solid rgb(45, 69, 218);
+    width: 115%;
+    margin-left: -8%;
+    margin-top: -10px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 0px 7px rgb(45 69 218), inset 0px 0px 7px rgb(45 69 218);
+    text-shadow: 0px 0px 7px rgb(45 69 218);
 }
 h1{
     font-size: 35px;
@@ -48,9 +56,13 @@ h1{
 span{
     font-weight: 500;
     color: #2d45da;
+    text-shadow: 0px 0px 4px rgb(45 69 218);
 }
 .banner{
     margin: 75px 0px;
+}
+header{
+    overflow: hidden;
 }
 /******************/
 
@@ -103,11 +115,7 @@ p{
     font-size: 20px;
     font-weight: 100;
     width: 50%;
-<<<<<<< HEAD
     line-height: 1.75;
-=======
-    line-height: 2;
->>>>>>> fc3ae81bfe223b177320fbb8c39415d08a6303f6
 }
 h2{
     font-size: 35px;
@@ -283,6 +291,7 @@ article.socials{
     }
     nav{
         font-size: 40px;
+        text-shadow: 0px 0px 4px rgb(45 69 218);
     }
     h1{
         font-size: 25px;
@@ -319,16 +328,19 @@ article.socials{
     }
     .projects{
         display: block;
+        margin: 0;
     }
     h1{
         text-align: center;
     }
     .skills{
         display: block;
+        margin: 0;
     }
     .skill{
         margin-bottom: 25px;
     }
+    
     p{
         width: 70%;
     }
