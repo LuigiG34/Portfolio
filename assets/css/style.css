@@ -103,7 +103,11 @@ p{
     font-size: 20px;
     font-weight: 100;
     width: 50%;
+<<<<<<< HEAD
     line-height: 1.75;
+=======
+    line-height: 2;
+>>>>>>> fc3ae81bfe223b177320fbb8c39415d08a6303f6
 }
 h2{
     font-size: 35px;
