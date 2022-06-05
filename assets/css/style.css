@@ -32,12 +32,13 @@ hr{
 
 /******************/
 nav{
-    background-color: rgb(45, 69, 218);
-    color: #050022;
+    background-color: #050022;
+    color: rgb(45, 69, 218);
     font-size: 60px;
     font-weight: 700;
     letter-spacing: 25px;
     padding: 25px;
+    border-bottom: 3px solid rgb(45, 69, 218);
 }
 h1{
     font-size: 35px;
@@ -77,8 +78,8 @@ span{
 img.language {
     width: 125px;
     margin: 50px;
-    -webkit-animation: spin 4s reverse linear infinite;
-    animation: spin 4s reverse linear infinite;
+    -webkit-animation: spin 6s reverse linear infinite;
+    animation: spin 6s reverse linear infinite;
     background: linear-gradient(110deg, rgba(180,180,180, 0.5), rgba(150,150,150,0.25));
     border: 1px solid rgba(224, 224, 224, 0.1);
     backdrop-filter: blur(10px);
@@ -91,8 +92,8 @@ img.language {
 article.language-container{
     height: 500px;
     width: 500px;
-    -webkit-animation: spin 4s linear infinite;
-    animation: spin 4s linear infinite;
+    -webkit-animation: spin 6s linear infinite;
+    animation: spin 6s linear infinite;
     overflow: hidden;
 }
 /***********LANGUAGE SPIN**************/
@@ -102,6 +103,7 @@ p{
     font-size: 20px;
     font-weight: 100;
     width: 50%;
+    line-height: 1.75;
 }
 h2{
     font-size: 35px;
@@ -140,6 +142,49 @@ h3{
 }
 /******************/
 
+/************************************/
+.skill{
+    background: linear-gradient(110deg, rgba(180,180,180, 0.5), rgba(150,150,150,0.25));
+    border: 1px solid rgba(224, 224, 224, 0.1);
+    backdrop-filter: blur(10px);
+    width: 250px;
+    height: 250px;
+    padding: 25px;
+    border-radius: 100%;
+    -webkit-box-shadow: 0px -1px 10px 0px #ffffff54; 
+    box-shadow: 0px -1px 10px 0px #ffffff54;
+    margin: 0px 50px;
+    transition: 0.5s ease;
+    overflow: hidden;
+}
+.skill:hover{
+    background: linear-gradient(110deg, rgba(180,180,180, 0.6), rgba(150,150,150,0.3));
+}
+.text-skill{
+    width: 90%;
+    line-height: 1.4;
+    margin-top: 0;
+    font-size: 14px;
+    transform: translateY(420%);
+    transition: 0.5s ease;
+}
+
+.h-skill{
+    margin: 0;
+    margin-top: 20px;
+    transform: translateY(220%);
+    transition: 0.5s ease;
+}
+
+.skill:hover .text-skill , .skill:hover .h-skill{
+    transform: translateY(0px);
+}
+
+.skills{
+    margin: 50px;
+}
+
+
 /******************/
 footer{
     margin-top: 100px;
@@ -177,7 +222,13 @@ article.socials{
         width: 100px;
         margin: 25px;
     }
-    
+    .skill{
+        width: 175px;
+        height: 175px;
+    }
+    .text-skill{
+        font-size: 11px;
+    }
     article.language-container{
         height: 300px;
         width: 300px;
@@ -211,7 +262,17 @@ article.socials{
         width: 90px;
         margin: 20px;
     }
-    
+    .skill{
+        width: 150px;
+        height: 150px;
+        margin: 0px 25px;
+    }
+    .text-skill{
+        font-size: 11px;
+    }
+    .skills{
+        margin: 25px;
+    }
     article.language-container{
         height: 250px;
         width: 250px;
@@ -258,6 +319,15 @@ article.socials{
     h1{
         text-align: center;
     }
+    .skills{
+        display: block;
+    }
+    .skill{
+        margin-bottom: 25px;
+    }
+    p{
+        width: 70%;
+    }
 }
 /*******/
 @media screen and (max-width: 375px) {
@@ -273,6 +343,10 @@ article.socials{
         font-size: 22px;
         padding: 25px 0px;
         letter-spacing: 10px;
+    }
+    .social{
+        width: 30px;
+        height: 30px;
     }
 
 }
