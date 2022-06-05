@@ -27,12 +27,12 @@
 
             <article class="language-container">
                 <article class="flex-row flex-center">
-                    <img class="language" src="assets/img/css.png" alt="">
-                    <img class="language" src="assets/img/js.png" alt="">
+                    <img class="language" src="assets/img/css.png" loading="lazy">
+                    <img class="language" src="assets/img/js.png" loading="lazy">
                 </article>
                 <article class="flex-row flex-center">
-                    <img class="language" src="assets/img/php.png" alt="">
-                    <img class="language" src="assets/img/xd.png" alt="">
+                    <img class="language" src="assets/img/php.png" loading="lazy">
+                    <img class="language" src="assets/img/xd.png" loading="lazy">
                 </article>
             </article>
         </section>
@@ -41,28 +41,29 @@
     <hr>
     <section class="text-center flex-center flex-col">
         <h2>À PROPOS DE MOI</h2>
-        <p>J'habite à Montpellier, j'ai 19 ans, passioné d'informatique je suis actuellement entrain d'obtenir le titre
-            pour devenir <span>Développeur Web</span>. J'apprécie particulierement la conception d'un projet, des
-            diagrammes au maquettage tout me plait. J'utilise principalement du JavaScript et du CSS, mais j'ai tout de
-            même des notions en PHP & SQL. Je vous laisse apprécier mes réalisations ci-dessous.</p>
+        <p>J'habite à Montpellier, j'ai 19 ans, passioné d'informatique je suis actuellement en train d'obtenir le titre
+            pour devenir <span>Développeur Web</span>. J'apprécie particulièrement la conception d'un projet, des
+            diagrammes, au maquettage tout me plait. J'ai une préférence pour le <span>Front-End</span>, j'utilise principalement du JavaScript et du CSS, mais j'ai tout de même des notions en PHP & SQL. Je vous laisse découvrir mes réalisations & compétences ci-dessous.</p>
     </section>
 
     <hr>
     <section class="text-center flex-center flex-col">
         <h2>COMPÉTENCES</h2>
         <article class="skills flex-center flex-row">
-            <div class="skill flex-center flex-col">
-                <h3 class="h-skill">SOFT SKILLS</h3>
-                <p class="text-skill">
-                    Envie d'apprendre<br>
-                    Travail d'équipe<br>
-                    Méthode AGILE<br>
-                    Observateur<br>
-                    À l'écoute<br>
-                    Curieux<br>
-                </p>
+            <div class="skill ">
+                <div class="text-container flex-center flex-col">
+                    <h3 class="h-skill">SOFT SKILLS</h3>
+                    <p class="text-skill">
+                        Envie d'apprendre<br>
+                        Travail d'équipe<br>
+                        Méthode AGILE<br>
+                        Observateur<br>
+                        À l'écoute<br>
+                    </p>
+                </div>
             </div>
-            <div class="skill flex-center flex-col">
+            <div class="skill">
+                <div class="text-container flex-center flex-col">
                 <h3 class="h-skill">HARD SKILLS</h3>
                 <p class="text-skill">
                     Manipulation d'une base de données<br>
@@ -71,10 +72,12 @@
                     Conception maquette<br>
                     Manipuler d'une API<br>
                 </p>
+                </div>
             </div>
         </article>
         <article class="skills flex-center flex-row">
-            <div class="skill flex-center flex-col">
+            <div class="skill">
+                <div class="text-container flex-center flex-col">
                 <h3 class="h-skill">LOGICIELS</h3>
                 <p class="text-skill">
                     LoopingMCD<br>
@@ -82,8 +85,10 @@
                     StarUML<br>
                     GiMP<br>
                 </p>
+                </div>
             </div>
-            <div class="skill flex-center flex-col">
+            <div class="skill">
+                <div class="text-container flex-center flex-col">
                 <h3 class="h-skill">LANGAGES</h3>
                 <p class="text-skill">
                     JavaScript<br>
@@ -91,15 +96,18 @@
                     CSS<br>
                     PHP<br>
                 </p>
+                </div>
             </div>
-            <div class="skill flex-center flex-col">
-                <h3 class="h-skill">LIBRAIRIES</h3>
-                <p class="text-skill">
+            <div class="skill">
+                <div class="text-container flex-center flex-col">
+                    <h3 class="h-skill">LIBRAIRIES</h3>
+                    <p class="text-skill">
                     TailwindCSS<br>
                     Bootstrap<br>
                     Tilt.js<br>
                     TCPDF<br>
-                </p>
+                    </p>
+                </div>
             </div>
         </article>
     </section>
@@ -108,26 +116,26 @@
     <section class="text-center">
         <h2>MES PROJETS</h2>
         <article class="projects flex-center flex-row">
-            <a href="pages/calculator.html">
-                <div class="flex-center flex-col">
+            <a href="pages/calculator.html" class="link-card">
+                <div class="flex-center flex-col card-container">
                     <div class="card flex-center">
-                        <img class="thumbnails" src="assets/img/thumbnails/calculator.png" alt="">
+                        <img class="thumbnails" src="assets/img/thumbnails/calculator.png" loading="lazy">
                     </div>
                     <h3>CALCULATOR</h3>
                 </div>
             </a>
-            <a href="pages/debitcard.html">
-                <div class="flex-center flex-col">
+            <a href="pages/debitcard.html" class="link-card">
+                <div class="flex-center flex-col card-container">
                     <div class="card flex-center">
-                        <img class="thumbnails" src="assets/img/thumbnails/debit.png" alt="">
+                        <img class="thumbnails" src="assets/img/thumbnails/debit.png" loading="lazy">
                     </div>
                     <h3>DEBIT CARD</h3>
                 </div>
             </a>
-            <a href="pages/pdfgenerator.html">
-                <div class="flex-center flex-col">
+            <a href="pages/pdfgenerator.html" class="link-card">
+                <div class="flex-center flex-col card-container">
                     <div class="card flex-center">
-                        <img class="thumbnails" src="assets/img/thumbnails/nouas.png" alt="">
+                        <img class="thumbnails" src="assets/img/thumbnails/nouas.png" loading="lazy">
                     </div>
                     <h3>PDF GENERATOR</h3>
                 </div>
@@ -135,26 +143,26 @@
         </article>
 
         <article class="projects flex-center flex-row">
-            <a href="pages/weatherapp.html">
-                <div class="flex-center flex-col">
+            <a href="pages/weatherapp.html" class="link-card">
+                <div class="flex-center flex-col card-container">
                     <div class="card flex-center">
-                        <img class="thumbnails" src="assets/img/thumbnails/meteo.png" alt="">
+                        <img class="thumbnails" src="assets/img/thumbnails/meteo.png" loading="lazy">
                     </div>
                     <h3>WEATHER APP</h3>
                 </div>
             </a>
-            <a href="pages/sodamobile.html">
-                <div class="flex-center flex-col">
+            <a href="pages/sodamobile.html" class="link-card">
+                <div class="flex-center flex-col card-container">
                     <div class="card flex-center">
-                        <img class="thumbnails" src="assets/img/thumbnails/fanta.png" alt="">
+                        <img class="thumbnails" src="assets/img/thumbnails/fanta.png" loading="lazy">
                     </div>
                     <h3>SODA MOBILE</h3>
                 </div>
             </a>
-            <a href="pages/spaceinvaders.html">
-                <div class="flex-center flex-col">
+            <a href="pages/spaceinvaders.html" class="link-card">
+                <div class="flex-center flex-col card-container">
                     <div class="card flex-center">
-                        <img class="thumbnails" src="assets/img/thumbnails/space.png" alt="">
+                        <img class="thumbnails" src="assets/img/thumbnails/space.png" loading="lazy">
                     </div>
                     <h3>SPACE INVADERS</h3>
                 </div>
@@ -163,7 +171,7 @@
     </section>
 
     <footer class="flex-center flex-col">
-        <h2>MES RÉSEAUX</h2>
+        <h2 class="reseau">MES RÉSEAUX</h2>
         <article class="socials">
             <a href="https://github.com/LuigiG34" target="_blank"><img src="assets/img/github.svg" alt=""
                     class="social"></a>
@@ -173,6 +181,8 @@
                     class="social"></a>
         </article>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   <script src="assets/js/tilt.js-master/dest/tilt.jquery.js"></script> 
+   <script src="assets/js/app.js"></script>
 </body>
-
 </html>

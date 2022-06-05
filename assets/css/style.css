@@ -6,7 +6,7 @@ body{
 }
 hr{
     width: 75%;
-    border: 1px solid rgba(45, 69, 218, 0.5)!important;
+    border: 1px solid rgba(45, 69, 218)!important;
     margin-top: 100px;
     margin-bottom: 100px;
     box-shadow: 0px 0px 5px rgb(45 69 218);
@@ -121,6 +121,10 @@ h2{
     font-size: 35px;
     font-weight: 500;
     letter-spacing: 3px;
+    text-shadow: 0px 0px 4px #FFF;
+}
+.reseau{
+    text-shadow: 0px 0px 3px rgb(5, 0, 34);
 }
 h3{
     font-size: 25px;
@@ -145,13 +149,20 @@ h3{
     -webkit-box-shadow: 0px -1px 10px 0px #ffffff54; 
     box-shadow: 0px -1px 10px 0px #ffffff54;
 }
+.card-container{
+    opacity: 0.5;
+    transition: 0.6s ease-in-out;
+}
+.card-container:hover{
+    opacity: 1;
+}
 .projects{
     margin: 75px;
 }
 .card:hover{
-    background: linear-gradient(110deg, rgba(180,180,180, 0.6), rgba(150,150,150,0.3));
     cursor: pointer;
 }
+
 /******************/
 
 /************************************/
@@ -166,11 +177,16 @@ h3{
     -webkit-box-shadow: 0px -1px 10px 0px #ffffff54; 
     box-shadow: 0px -1px 10px 0px #ffffff54;
     margin: 0px 50px;
-    transition: 0.5s ease;
+    transition: 0.6s ease-in-out;
     overflow: hidden;
+    opacity: .5;
+}
+.text-container{
+    height: 100%;
+    width: 100%;
 }
 .skill:hover{
-    background: linear-gradient(110deg, rgba(180,180,180, 0.6), rgba(150,150,150,0.3));
+    opacity: 1;
 }
 .text-skill{
     width: 90%;
@@ -178,7 +194,7 @@ h3{
     margin-top: 0;
     font-size: 14px;
     transform: translateY(420%);
-    transition: 0.5s ease;
+    transition: 0.6s ease-in-out;
 }
 
 .h-skill{
@@ -200,8 +216,9 @@ h3{
 /******************/
 footer{
     margin-top: 100px;
-    background-color: #2d45da;
+    background: linear-gradient(#2d45da, #050022);
     color: #050022;
+    box-shadow: 0px 0px 50px #2d45da;
 }
 article.socials{
     padding: 35px;
