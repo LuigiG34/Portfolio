@@ -5,6 +5,8 @@ body{
     font-family: "Roboto", sans-serif;
 }
 
+
+
 .white-link{
     color: #ffffff;
     text-decoration: underline;
@@ -66,24 +68,34 @@ header{
 }
 /***********************/
 footer{
-    margin-top: 100px;
-    background: linear-gradient(#2d45da, #050022);
-    color: #050022;
-    box-shadow: 0px 0px 50px #2d45da;
+    color: #2d45da;
+    padding: 25px;
+}
+hr{
+    width: 75%;
+    border: 1px solid rgba(45, 69, 218)!important;
+    box-shadow: 0px 0px 5px rgb(45 69 218);
+    margin-top: 10%;
+    margin-bottom: 2%;
+}
+
+
+.reseau{
+    text-shadow: 0px 0px 3px #2d45da;
 }
 article.socials{
     padding: 35px;
 }
 .social{
-    filter: invert(5%) sepia(37%) saturate(6530%) hue-rotate(249deg) brightness(77%) contrast(111%);
+    filter: invert(26%) sepia(94%) saturate(3335%) hue-rotate(229deg) brightness(84%) contrast(104%);
     height: 40px;
     width: 40px;
     margin: 0px 25px;
+    transition: 0.4s ease-in-out;
 }
 .social:hover{
-    opacity: 0.75;
+    opacity: 0.5;
 }
-
 iframe{
     height: 600px;
     width: 600px;

@@ -62,7 +62,7 @@ span{
     text-shadow: 0px 0px 4px rgb(45 69 218);
 }
 .banner{
-    margin: 75px 0px;
+    margin-top: 75px;
 }
 header{
     overflow: hidden;
@@ -126,9 +126,7 @@ h2{
     letter-spacing: 3px;
     text-shadow: 0px 0px 4px #FFF;
 }
-.reseau{
-    text-shadow: 0px 0px 3px rgb(5, 0, 34);
-}
+
 h3{
     font-size: 25px;
     font-weight: 500;
@@ -222,23 +220,33 @@ h3{
 
 
 /******************/
+
 footer{
     margin-top: 100px;
-    background: linear-gradient(#2d45da, #050022);
-    color: #050022;
-    box-shadow: 0px 0px 50px #2d45da;
+    color: #2d45da;
+    padding: 25px;
+}
+.footer-hr{
+    margin-top: 10%;
+}
+.footer-container{
+    overflow:hidden;
+}
+.reseau{
+    text-shadow: 0px 0px 3px #2d45da;
 }
 article.socials{
     padding: 35px;
 }
 .social{
-    filter: invert(5%) sepia(37%) saturate(6530%) hue-rotate(249deg) brightness(77%) contrast(111%);
+    filter: invert(26%) sepia(94%) saturate(3335%) hue-rotate(229deg) brightness(84%) contrast(104%);
     height: 40px;
     width: 40px;
     margin: 0px 25px;
+    transition: 0.4s ease-in-out;
 }
 .social:hover{
-    opacity: 0.75;
+    opacity: 0.5;
 }
 /******************/
 
