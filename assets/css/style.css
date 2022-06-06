@@ -90,6 +90,7 @@ span{
 }
 .banner{
     margin-top: 75px;
+    padding: 25px 0px;
 }
 header{
     overflow: hidden;
@@ -136,7 +137,7 @@ article.language-container{
     width: 500px;
     -webkit-animation: spin 6s linear infinite;
     animation: spin 6s linear infinite;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 /***********LANGUAGE SPIN**************/
 
@@ -177,6 +178,8 @@ h3{
     border-radius: 100%;
     -webkit-box-shadow: 0px -1px 10px 0px #ffffff54; 
     box-shadow: 0px -1px 10px 0px #ffffff54;
+    transform: scale(.9);
+    transition: 0.6s ease-in-out;
 }
 .card-container{
     opacity: 0.5;
@@ -190,6 +193,7 @@ h3{
 }
 .card:hover{
     cursor: pointer;
+    transform: scale(1);
 }
 
 /******************/
@@ -403,7 +407,7 @@ article.socials{
         flex-direction: column;
     }
     nav{
-        font-size: 25px;
+        font-size: 35px;
         padding: 25px 0px;
         letter-spacing: 13px;
     }
@@ -437,13 +441,14 @@ article.socials{
         width: 230px;
     }
     nav{
-        font-size: 22px;
+        font-size: 35px;
         padding: 25px 0px;
         letter-spacing: 10px;
     }
     .social{
         width: 30px;
         height: 30px;
+        margin: 0px 15px;
     }
 
 }
