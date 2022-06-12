@@ -154,6 +154,18 @@ iframe{
     border: 2px solid rgb(45, 69, 218);
     box-shadow: 0px 0px 10px rgb(45, 69, 218);
 }
+
+.img-mediabat{
+    height: 300px;
+    width: 300px;
+    border: none;
+    border-radius: 20px;
+    margin: 25px 0px;
+    border: 2px solid rgb(45, 69, 218);
+    box-shadow: 0px 0px 10px rgb(45, 69, 218);
+    
+}
+
 h2{
     font-size: 35px;
     font-weight: 500;
