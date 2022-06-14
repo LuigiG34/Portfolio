@@ -165,7 +165,11 @@ iframe{
     box-shadow: 0px 0px 10px rgb(45, 69, 218);
     
 }
-
+.blue-link{
+    text-shadow: 0px 0px 2px #2d45da;
+    color: #2d45da;
+    text-decoration: underline;
+}
 h2{
     font-size: 35px;
     font-weight: 500;

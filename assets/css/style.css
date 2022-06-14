@@ -161,6 +161,12 @@ h3{
     letter-spacing: 3px;
     text-shadow: 0px 0px 2px rgb(255, 255, 255);
 }
+.blue-link{
+    text-shadow: 0px 0px 2px #2d45da;
+    color: #2d45da;
+    text-decoration: underline;
+}
+
 .thumbnails{
     width: 200px;
     border-radius: 100%;
