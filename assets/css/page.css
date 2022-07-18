@@ -282,11 +282,6 @@ a{
     section{
         overflow: hidden;
     }
-    .social{
-        width: 30px;
-        height: 30px;
-        margin: 0 15px
-    }
 }
 
 @media screen and (max-width: 325px) {
