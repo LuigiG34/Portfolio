@@ -202,6 +202,9 @@ a{
 }
 
 @media screen and (max-width: 1440px) {
+    .home-btn{
+        bottom: 12.5%!important;
+    }
     p{
         width: 50%;
     }
@@ -212,6 +215,9 @@ a{
     }
 }
 @media screen and (max-width: 768px) {
+    .home-btn{
+        bottom: 12%!important;
+    }
     nav{
         font-size: 40px;
         text-shadow: 0px 0px 4px rgb(45 69 218);
@@ -240,6 +246,9 @@ a{
     }
 }
 @media screen and (max-width: 425px) {
+    .home-btn{
+        bottom: 13%!important;
+    }
     nav{
         font-size: 35px;
         padding: 25px 0px;
