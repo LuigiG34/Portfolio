@@ -498,6 +498,11 @@ a{
     p{
         width: 70%;
     }
+    .social{
+        width: 20px;
+        height: 20px;
+        margin: 0px 10px;
+    }
 }
 /*******/
 @media screen and (max-width: 375px) {

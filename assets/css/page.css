@@ -249,6 +249,11 @@ a{
     .home-btn{
         bottom: 13%!important;
     }
+    .social{
+        width: 20px;
+        height: 20px;
+        margin: 0px 10px;
+    }
     nav{
         font-size: 35px;
         padding: 25px 0px;
